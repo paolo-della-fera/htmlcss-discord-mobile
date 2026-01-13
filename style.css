@@ -1,11 +1,26 @@
-    /* css reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+ /* css reset */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-/* body7 */
-body {
+ /* body7 */
+ body {
     width: 512px;
-}
+    background-color: rgb(21, 21, 127);
+ }
+
+ /* header */
+
+ #site_banner {
+     width: 512px;
+ }
+
+ .title {
+     font-family: "Sigmar", sans-serif;
+     margin: 80px;
+     color: #fff;
+     text-align: center;
+     line-height: 1;
+ }
