@@ -68,3 +68,49 @@
      border-radius: 15px;
      margin-top: 10px;
  }
+
+ /* cards */
+ #title_cards {
+     font-family: "Sigmar", sans-serif;
+     font-size:35px;
+     margin: 50px 40px 10px 40px;
+     color: #fff;
+     text-align: left;
+     line-height: 1;
+ }
+
+ .cards {
+     text-align: left;
+     color: #fff;
+     font-family: "DM Sans", sans-serif;
+     font-size: small;
+     margin: 0px 40px 10px 40px;
+ }
+
+ .container{
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px #fff;
+    border-style: solid;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+ }
+
+ .cards img {
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    border-radius: 10%;
+ }
+
+ #eyes img {
+    width: 100px; 
+    position: absolute;      
+    top: 655px;   
+    left: 20%;     
+ 
+ }
