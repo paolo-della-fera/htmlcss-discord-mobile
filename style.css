@@ -7,20 +7,55 @@
 
  /* body7 */
  body {
-    width: 512px;
-    background-color: rgb(21, 21, 127);
+     width: 512px;
+     background-color: rgb(21, 21, 127);
  }
 
  /* header */
-
  #site_banner {
      width: 512px;
  }
 
  .title {
      font-family: "Sigmar", sans-serif;
-     margin: 80px;
+     margin: 80px 80px 20px;
      color: #fff;
      text-align: center;
      line-height: 1;
+ }
+
+
+ /*main*/
+ #discord_description {
+     font-family: "DM Sans", sans-serif;
+     margin: 0px 80px 20px;
+     color: #fff;
+     text-align: center;
+     line-height: 1;
+ }
+
+ #install_button {
+     position: absolute;
+     top: 80%;
+     left: 50%;
+     translate: -50% -50%;
+     font-family: "DM Sans", sans-serif;
+     background-color: white;
+     color: black;
+     padding: 10px 30px;
+     margin-top: 30px;
+     border-radius: 15px;
+ }
+
+ #web_button {
+     position: absolute;
+     top: 90%;
+     left: 50%;
+     translate: -50% -50%;
+     font-family: "DM Sans", sans-serif;
+     color: #fff;
+     background-color: #2676ed;
+     padding: 10px 15px;
+     border-radius: 15px;
+     margin-top: 10px;
  }
